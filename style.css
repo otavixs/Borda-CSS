@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+}
+
+.border{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-width:20px;
+    border-color: maroon;
+    border-style:solid;
+}
+.bordaimagem1{
+    border: 20px solid transparent;
+    margin:10px;
+    border-image: url(leonardo-da-vinci.webp);
+    width: 150px;
+    height: 150px;
+}
+
+.bordaimagem2{
+    border: 20px solid transparent;
+    margin: 10px;
+    border-image: url(leonardo-da-vinci.webp) 50% round;
+    width: 150px;
+    height: 150px;
+}
+
+.bordaimagem3{
+    border: 20px solid transparent;
+    margin: 10px;
+    border-image: url(leonardo-da-vinci.webp) 40%stretch;
+    width:150px;
+    height: 150px;
+}
+
+.bordaimagem5{
+    border: 20px solid transparent;
+    margin:10px;
+    border-image: url(leonardo-da-vinci.webp) 25% stretch;
+    width: 150px;
+    height: 150px;
+}    
+
+.bordaimagem6{
+    border: 20px solid transparent;
+    margin: 10px;
+    border-image:url(leonardo-da-vinci.webp) 40% repeat;
+    width:150px;
+    height: 150px;
+}
